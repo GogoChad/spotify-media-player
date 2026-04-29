@@ -28,7 +28,7 @@ To communicate with Spotify, you need to register your own "App" on their platfo
    * **Web API**
    * **Web Playback SDK**
 5. In the **Redirect URIs** field, add exactly:  
-   `[http://127.0.0.1:8888/callback](http://127.0.0.1:8888/callback)`
+   `http://127.0.0.1:8888/callback`
 6. Click **Save** at the bottom of the page.
 7. On your App's overview page, click **Settings** to find your **Client ID** and **Client Secret**. Keep these ready.
 
@@ -58,7 +58,7 @@ To communicate with Spotify, you need to register your own "App" on their platfo
    ```bash
    node server.js
    ```
-2. Open your web browser and go to: `[http://127.0.0.1:8888/login](http://127.0.0.1:8888/login)`
+2. Open your web browser and go to: `http://127.0.0.1:8888/callback`
 3. Log in to Spotify and authorize your app.
 4. You will see a "LOGGED IN SUCCESSFULLY" message. A `tokens.json` file will be created in your folder—**do not share this file**, as it contains your personal access key.
 
