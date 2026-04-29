@@ -76,4 +76,3 @@ To communicate with Spotify, you need to register your own "App" on their platfo
 * **API/SDK Settings**: Ensure you checked both **Web API** and **Web Playback SDK** in the Spotify Dashboard app settings.
 * **Server Offline**: If the plugin shows an error, ensure the terminal window running `node server.js` hasn't been closed.
 * **No Active Device**: Spotify requires you to have the app open and playing on at least one device (PC, Phone, etc.) for the controls to work.
-```
