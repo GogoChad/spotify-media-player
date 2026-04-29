@@ -1,7 +1,3 @@
-Here is the updated `README.md`. I have added the API/SDK selection step to the Spotify Developer setup section to ensure everything works correctly.
-
----
-
 # Spotify Controller for League of Legends
 
 A lightweight Spotify controller integrated directly into the League of Legends client using **Pengu Loader**. This project consists of two parts: a local Node.js authentication server and a client-side plugin.
